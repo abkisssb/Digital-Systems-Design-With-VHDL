@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../IASM_LAB1.srcs/sources_1/new/boolean_eq.vhd" \
+"../../../../IASM_LAB1.srcs/sim_1/new/boolean_eq_tb.vhd" \
+
+# Do not sort compile order
+nosort
